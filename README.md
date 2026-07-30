@@ -1,6 +1,6 @@
 # Jun Zhang 个人学术主页
 
-一个可直接部署到 GitHub Pages 的纯静态个人主页，不需要安装依赖或运行构建命令。
+一个参考经典学术主页风格的纯静态个人主页，可直接部署到 GitHub Pages，不需要安装依赖或运行构建命令。
 
 ## 本地预览
 
@@ -32,4 +32,4 @@ python3 -m http.server 8000
 
 头像当前引用 Google Scholar 的公开图片地址。如果希望网站更稳定，可将自己的照片放到 `assets/portrait.jpg`，然后把 `index.html` 中的头像 `src` 改为 `assets/portrait.jpg`。
 
-论文数据根据 Google Scholar 与 arXiv 的公开页面整理，更新日期为 2026-07-30。新增论文时，复制一个 `.publication-item` 区块并修改年份、标题、作者和链接即可。
+论文数据根据 Google Scholar、arXiv 和作者公开主页整理，更新日期为 2026-07-31。新增论文时，复制一个 `.paper` 区块并修改年份、标题、作者和链接即可。
