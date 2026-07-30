@@ -103,11 +103,31 @@ a:focus-visible {
   line-height: 1.2;
 }
 
+.chinese-name {
+  margin-left: 0.16em;
+  color: #3f4652;
+  font-size: 0.63em;
+  font-weight: 600;
+  letter-spacing: 0;
+  vertical-align: 0.08em;
+}
+
 .affiliation {
   margin: 0 0 23px;
   color: var(--muted);
   font-size: 14.5px;
   font-weight: 450;
+  line-height: 1.55;
+}
+
+.affiliation-label {
+  display: block;
+  margin-bottom: 2px;
+  color: #9aa1ad;
+  font-size: 10.5px;
+  font-weight: 650;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
 
 .profile-main > p:not(.affiliation):not(.research-label) {
@@ -135,6 +155,17 @@ a:focus-visible {
 
 .research-list li::marker {
   color: var(--accent);
+}
+
+.personal-interests {
+  margin: 19px 0 0 !important;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.personal-interests strong {
+  color: var(--heading);
+  font-weight: 650;
 }
 
 .section-header {
