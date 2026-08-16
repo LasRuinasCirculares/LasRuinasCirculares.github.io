@@ -38,6 +38,15 @@ topics.
   </div>
 </div>
 
+## Selected Publications
+
+{% assign selected_publications = site.publications | where: "selected", true | sort: "date" | reverse %}
+{% for post in selected_publications %}
+  {% include archive-single.html heading_tag="h3" %}
+{% endfor %}
+
+[View all publications](/publications/){: .btn .btn--primary }
+
 ## Research Interests
 
 - Learning Dynamics in Large Language Models
@@ -45,25 +54,6 @@ topics.
 - Trustworthy and Agentic LLMs
 - Temporal Reasoning
 - Multimodal Agentic Reinforcement Learning
-
-## Education
-
-<div class="career-list">
-  <div class="career-item">
-    <div class="career-date">Sep. 2025 &ndash; Present</div>
-    <div>
-      <strong>Institute of Software, Chinese Academy of Sciences</strong>
-      <span>M.Sc. student, Chinese Information Processing Laboratory</span>
-    </div>
-  </div>
-  <div class="career-item">
-    <div class="career-date">Sep. 2021 &ndash; Jul. 2025</div>
-    <div>
-      <strong>Soochow University</strong>
-      <span>Bachelor's degree in Artificial Intelligence</span>
-    </div>
-  </div>
-</div>
 
 ## Experience
 
@@ -79,15 +69,6 @@ topics.
     </div>
   </div>
 </div>
-
-## Selected Publications
-
-{% assign selected_publications = site.publications | where: "selected", true | sort: "date" | reverse %}
-{% for post in selected_publications %}
-  {% include archive-single.html heading_tag="h3" %}
-{% endfor %}
-
-[View all publications](/publications/){: .btn .btn--primary }
 
 ## Personal Interests
 
