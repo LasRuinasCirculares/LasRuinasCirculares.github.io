@@ -10,7 +10,7 @@ redirect_from:
 ## Education
 
 - **Institute of Software, Chinese Academy of Sciences**, Beijing, China<br>
-  M.Sc. student, Chinese Information Processing Center, Sep. 2025 &ndash; Present
+  M.Sc. student, Chinese Information Processing Laboratory, Sep. 2025 &ndash; Present
 
 - **Soochow University**, Suzhou, China<br>
   Bachelor's degree in Artificial Intelligence, Sep. 2021 &ndash; Jul. 2025
@@ -23,11 +23,11 @@ redirect_from:
 
 ## Research Interests
 
-- Trustworthy Large Language Models
-- Agentic LLMs and Multimodal Agents
-- Reasoning Reliability and Interpretability
-- Temporal Reasoning and Knowledge Conflicts
-- Visual Tool Use
+- Learning Dynamics in Large Language Models
+- Knowledge Acquisition, Representation, and Updating in LLMs
+- Trustworthy and Agentic LLMs
+- Temporal Reasoning
+- Multimodal Agentic Reinforcement Learning
 
 ## Publications
 

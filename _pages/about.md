@@ -7,19 +7,15 @@ redirect_from:
   - /about.html
 ---
 
-I am **Jun Zhang (张俊)**, an M.Sc. student at the Chinese Information
-Processing Center, Institute of Software, Chinese Academy of Sciences
-(ISCAS).
-
-I received my bachelor's degree in Artificial Intelligence from Soochow
-University in July 2025. I was subsequently admitted to the graduate program
-at ISCAS through the recommendation-based admission pathway, without taking
-the national postgraduate entrance examination.
-
-My research focuses on **trustworthy and agentic large language models**. I am
-particularly interested in reasoning reliability, temporal reasoning,
-knowledge conflicts, multimodal tool use, and the interpretation of long
-reasoning chains.
+I am **Jun Zhang (张俊)**, currently pursuing an M.Sc. at the Institute of
+Software, Chinese Academy of Sciences (ISCAS), where I work in the Chinese
+Information Processing Laboratory under the supervision of **Hongyu Lin** and
+**Boxi Cao**. I received my bachelor's degree in Artificial Intelligence from
+Soochow University. My earlier research focused on temporal reasoning and
+multimodal agentic reinforcement learning; my current work focuses on learning
+dynamics and understanding how knowledge is acquired, represented, and updated
+in large language models. I welcome discussions and collaborations on these
+topics.
 
 ## News
 
@@ -44,11 +40,11 @@ reasoning chains.
 
 ## Research Interests
 
-- Trustworthy Large Language Models
-- Agentic LLMs and Multimodal Agents
-- Reasoning Reliability and Interpretability
-- Temporal Reasoning and Knowledge Conflicts
-- Visual Tool Use
+- Learning Dynamics in Large Language Models
+- Knowledge Acquisition, Representation, and Updating in LLMs
+- Trustworthy and Agentic LLMs
+- Temporal Reasoning
+- Multimodal Agentic Reinforcement Learning
 
 ## Education
 
@@ -57,7 +53,7 @@ reasoning chains.
     <div class="career-date">Sep. 2025 &ndash; Present</div>
     <div>
       <strong>Institute of Software, Chinese Academy of Sciences</strong>
-      <span>M.Sc. student, Chinese Information Processing Center</span>
+      <span>M.Sc. student, Chinese Information Processing Laboratory</span>
     </div>
   </div>
   <div class="career-item">
