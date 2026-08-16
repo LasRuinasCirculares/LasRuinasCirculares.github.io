@@ -117,12 +117,12 @@ textarea {
 
 .archive__item {
   margin-bottom: 0;
-  padding: 0.68em 0 0.78em;
+  padding: 0.48em 0 0.58em;
   border-bottom: 1px solid var(--global-border-color);
 }
 
 .archive__item-title {
-  margin: 0 0 0.28em;
+  margin: 0 0 0.18em;
   font-size: 1.03em;
   font-weight: 700;
   line-height: 1.5;
@@ -130,7 +130,7 @@ textarea {
 }
 
 .page__content .archive__item-title {
-  margin: 0 0 0.28em;
+  margin: 0 0 0.18em;
   line-height: 1.35;
 }
 
@@ -139,7 +139,7 @@ textarea {
 .publication-tldr,
 .publication-links {
   font-size: 0.88em;
-  line-height: 1.5;
+  line-height: 1.45;
 }
 
 .publication-authors {
@@ -148,15 +148,16 @@ textarea {
 
 .publication-tldr {
   color: var(--global-text-color-light);
+  font-style: italic;
 }
 
 .publication-tldr strong {
-  color: var(--global-text-color);
-  font-weight: 700;
+  color: inherit;
+  font-style: inherit;
+  font-weight: 600;
 }
 
-.publication-venue,
-.publication-tldr {
+.publication-venue {
   color: var(--global-text-color-light);
 }
 
@@ -177,11 +178,11 @@ textarea {
 .page__content .archive__item .publication-tldr,
 .page__content .archive__item .publication-links,
 .page__content .archive__item .archive__item-excerpt {
-  margin: 0.16em 0;
+  margin: 0.08em 0;
 }
 
 .page__content .archive__item .publication-links {
-  margin-top: 0.35em;
+  margin-top: 0.22em;
 }
 
 .publication-authors--detail {
