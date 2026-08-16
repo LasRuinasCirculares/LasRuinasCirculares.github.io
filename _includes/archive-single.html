@@ -36,13 +36,13 @@
     </{{ heading_tag }}>
 
     {% if post.collection == 'publications' %}
+      {% if post.excerpt %}
+        <p class="publication-tldr" itemprop="description"><strong>TL;DR:</strong> {{ post.excerpt }}</p>
+      {% endif %}
       {% if post.authors %}
         <p class="publication-authors">{{ post.authors }}</p>
       {% endif %}
       <p class="publication-venue"><i>{{ post.venue }}</i></p>
-      {% if post.excerpt %}
-        <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt }}</p>
-      {% endif %}
       {% if post.paperurl or post.codeurl %}
         <p class="publication-links">
           {% if post.paperurl %}<a href="{{ post.paperurl }}">Paper</a>{% endif %}
