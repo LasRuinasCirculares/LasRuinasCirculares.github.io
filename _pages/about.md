@@ -17,44 +17,6 @@ dynamics and understanding how knowledge is acquired, represented, and updated
 in large language models. I welcome discussions and collaborations on these
 topics.
 
-## News
-
-<div class="news-list">
-  <div class="news-item">
-    <time datetime="2026-06">Jun. 2026</time>
-    <p><a href="https://arxiv.org/abs/2606.23404">ReasoningLens</a> was released with open-source code.</p>
-  </div>
-  <div class="news-item">
-    <time datetime="2025-09">Sep. 2025</time>
-    <p>Joined ISCAS as an M.Sc. student.</p>
-  </div>
-  <div class="news-item">
-    <time datetime="2025-05">May 2025</time>
-    <p><a href="https://arxiv.org/abs/2505.08617">OpenThinkIMG</a> was released on arXiv.</p>
-  </div>
-  <div class="news-item">
-    <time datetime="2024-12">Dec. 2024</time>
-    <p>Completed an NLP internship at Baidu.</p>
-  </div>
-</div>
-
-## Selected Publications
-
-{% assign selected_publications = site.publications | where: "selected", true | sort: "date" | reverse %}
-{% for post in selected_publications %}
-  {% include archive-single.html heading_tag="h3" %}
-{% endfor %}
-
-[View all publications](/publications/){: .btn .btn--primary }
-
-## Research Interests
-
-- Learning Dynamics in Large Language Models
-- Knowledge Acquisition, Representation, and Updating in LLMs
-- Trustworthy and Agentic LLMs
-- Temporal Reasoning
-- Multimodal Agentic Reinforcement Learning
-
 ## Experience
 
 <div class="career-list">
@@ -69,6 +31,18 @@ topics.
     </div>
   </div>
 </div>
+
+## Research Interests
+
+- LLM Learning Dynamics & Knowledge Mechanisms
+- Agentic Reasoning & Alignment
+
+## Publications
+
+{% assign publications = site.publications | sort: "date" | reverse %}
+{% for post in publications %}
+  {% include archive-single.html heading_tag="h3" %}
+{% endfor %}
 
 ## Personal Interests
 
